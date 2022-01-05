@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clientes</title>
+        <meta charset="tuf-8" lang="pt-br">
+    </head>
+    <body>
+        <div id="busca">
+            <h1>Buscar Cliente:</h1>
+            <form action="get" id="formbusca">
+                <label for="fbusca">ID</label><br>
+                <input type="text" id="campobusca" name="fbusca" placeholder="Digite sua Busca:"><br>
+                <input type="button" value="Buscar" onclick="carregarcliente()">
+            </form>
+        </div>
+        <br>
+        <h1>Cliente:</h1>
+            <p>ID</p>
+            <p id="mostraID"></p>
+            <p>Nome</p>
+            <p id="mostranome"></p>
+            <p>Email</p>
+            <p id="mostraemail"></p>
+        <br/>
+        <script src="buscacliente.js"></script>
+    </body>
+</html>
